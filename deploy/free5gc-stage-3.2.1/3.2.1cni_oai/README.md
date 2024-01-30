@@ -3,9 +3,8 @@
 
 **before deploying the pod you has to install several software in order to let kubernetes get you SDR device**
 
-**First you have to install the USRP software and make sure you can get the device info**
-
-**you can follow NI officel website installation guide**
+**1. First you have to install the USRP software and make sure you can get the device on your pc.** 
+you can follow NI officel website installation guide here
 [USRP Hardware Driver and USRP Manual](https://files.ettus.com/manual/page_install.html)
 
 **after the installation you should be able to get your device info once you connect your device**
