@@ -1,10 +1,10 @@
 ## Free5gc CN with oai-gnb B200  
-**test enviroment is using kubernetes v1.23.6 and ubuntu20.04 kernel 5.4 with USRP B200**
+> test enviroment is using kubernetes v1.23.6 and ubuntu20.04 kernel 5.4 with USRP B200
 
 **before deploying the pod you has to install several software in order to let kubernetes get you SDR device**
 
 **1. First you have to install the USRP software and make sure you can get the device on your pc.** 
-you can follow NI officel website installation guide here
+> you can follow NI officel website installation guide here
 [USRP Hardware Driver and USRP Manual](https://files.ettus.com/manual/page_install.html)
 
 **after the installation you should be able to get your device info once you connect your device**
