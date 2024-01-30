@@ -10,7 +10,7 @@
 
 **after the installation you should be able to get your device info once you connect your device**
 
-![image](https://hackmd.io/_uploads/B1ea6zLq6.png)
+![image](https://cdn.discordapp.com/attachments/625953483576705024/1201785718205333544/B1ea6zLq6.png?ex=65cb152b&is=65b8a02b&hm=30c309a8bf15e3150f82e5e8925c27e86daa1c896f167edcd10f2b3ac3bac5b0&)
 
 
 **next for k8s to use your device you has to install the device plugin**
@@ -30,7 +30,8 @@ sudo kubectl apply -f ettus-daemonset.yaml
 ```bash=
 kubectl get nodes -o go-template --template='{{range .items}}{{printf "%s %s\n" .metadata.name .status.allocatable}}{{end}}'
 ```
-![image](https://hackmd.io/_uploads/BJKgRGLqT.png)
+![image](https://github.com/kanic1111/free5gmano/assets/59955075/6a5f8233-8cb4-49ca-a43e-5caf1baa677f)
+
 
 **after you can deploy free5gc and oai-gnb**
 
